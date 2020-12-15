@@ -15,6 +15,8 @@ import javax.persistence.Table;
 @Table(name="appointment")
 public class Appointment {
     @Id
-    private int id;
+    private Integer id;
     private String status;
+
+
 }

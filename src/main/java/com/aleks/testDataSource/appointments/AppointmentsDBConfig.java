@@ -41,6 +41,7 @@ public class AppointmentsDBConfig {
             @Qualifier("appointmentsDatasource") DataSource dataSource
     )
     {
+
         return builder
                 .dataSource(dataSource)
                 .packages("com.aleks.testDataSource.appointments")

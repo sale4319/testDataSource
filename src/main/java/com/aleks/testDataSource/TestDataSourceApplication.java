@@ -42,8 +42,8 @@ public class TestDataSourceApplication {
 	@PostConstruct
 	public void addAdmissionsData(){
 		admissionRepository.saveAll(Stream.of(
-				new Admission(101, "The first appointment"),
-				new Admission(102, "Appointment with dentist"))
+				new Admission(101, "The first Admission"),
+				new Admission(102, "Admission with dentist"))
 				.collect(Collectors.toList()));
 	}
 
